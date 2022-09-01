@@ -1,0 +1,37 @@
+Html:
+Hayper Text Markup Language
+
+
+
+
+
+
+
+html >>>>>>>>>>>>>>>>>>>> structure
+
+css >>>>>>>>>>>>>>>>>>>>> style
+
+java script >>>>>>>>>>>>> behavior
+
+///////////////////////////////////////////////////////
+Html:
+
+bold  (b)=> stong 
+
+bold = normal text
+
+strong = important text
+____________
+i = italic text
+
+em (Emphasized)= italic text
+
+mark = yellow background 
+
+u - ins = inserted text
+
+
+
+
+///////////////////////////////////////////////////////
+Header - nav - section - aside - footer
