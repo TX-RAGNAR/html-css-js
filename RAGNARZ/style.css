@@ -79,12 +79,12 @@ nav ul li a:hover {
 }
 
 .content {
-
 	flex-grow: 1;
 }
 
 .contianer {
 	padding: var(--padding);
+
 }
 
 div h3 span a {
@@ -105,6 +105,7 @@ h3 {
 h4 {
 	font-size: 1.50rem;
 	letter-spacing: 0.15rem;
+	color: var(--secondarycolor);
 }
 
 pre {
@@ -118,8 +119,50 @@ pre {
 }
 
 .img2 {
-	position: relative;
-	bottom: 1150px;
-	left: 1200px;
+	position: absolute;
+	bottom: 0;
+	left: 68%;
+	/* background-color: #ff274b; */
+	transition: bottom 0.30s;
+	margin-bottom: 9%;
+	height: fit-content;
+}
 
+.img2:hover {
+	bottom: 40px;
+}
+
+.img1 {
+	position: absolute;
+	height: 50%;
+	width: 25%;
+	bottom: 0;
+	top: 20%;
+	margin-top: 24%;
+	transition: top 0.30s;
+}
+
+.img1:hover {
+	top: 10rem;
+}
+
+
+.contianer #btndownload {
+	position: relative;
+	top: 45px;
+}
+
+.social {
+	margin-top: 4.5rem;
+}
+
+.social img {
+	margin-right: 2.5rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	transition: 0.3s;
+}
+
+.social img:hover {
+	transform: scale(1.2);
 }
